@@ -1,3 +1,5 @@
+"use strict";
+
 const searchInput = document.getElementById("search__input");
 const searchButton = document.getElementById("search__button");
 const songContainer = document.getElementById("song__container");
