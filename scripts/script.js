@@ -10,6 +10,7 @@ let previousSongId = "";
 // Functionality after pressing a search key word
 searchButton.addEventListener("click", (event) => {
   event.preventDefault();
+  previousSongId = "";
   if (searchInput.value) {
     searchSong(searchInput.value);
   }
