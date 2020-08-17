@@ -1,3 +1,7 @@
+"use strict";
+// It will fetch the songs data and lyrics from the given api and,
+// Create dom for the songs
+
 const searchSong = (searchKey) => {
   songContainer.innerHTML = "";
   fetch(`https://api.lyrics.ovh/suggest/${searchKey.toLowerCase().trim()}`) // Calling the songs
